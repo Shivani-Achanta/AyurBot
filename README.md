@@ -65,18 +65,18 @@ Make sure you have the following installed:
 
 ### 📦 Installation Steps
 
-1. **Clone the Repository**
-   git clone https://github.com/your-username/ayurbot.git
-   cd ayurbot
+1. **Clone the Repository**  
+   git clone https://github.com/your-username/ayurbot.git  
+   cd ayurbot  
 
-2. **Install Frontend Dependencies**
-   npm install
+2. **Install Frontend Dependencies**  
+   npm install  
 
-3. **Start the Backend Server**
-   cd backend
-   npm install
-   nodemon app.js
+3. **Start the Backend Server**  
+   cd backend  
+   npm install  
+   nodemon app.js  
 
-4. **Start the Frontend App**
-   cd ..
-   npm start
+4. **Start the Frontend App**  
+   cd ..  
+   npm start  
