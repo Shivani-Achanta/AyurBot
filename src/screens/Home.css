@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  /* Other CSS rules... */
+  
+  
+  /* Other CSS rules... */
+  
+  .left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background-color: #ffe4e1; /* Left section background color */
+    padding: 20px;
+  }
+  
+  .right-content {
+    flex: 1;
+    background-color: #a7ffeb; /* Right section background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #ffdab9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

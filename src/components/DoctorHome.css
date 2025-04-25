@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    color: black;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    margin-right: 20px; /* Add margin to create space between the logo and other content */
+  }
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center; /* Center text in the header */
+    }
+  
+    .logo {
+      margin-right: 0; /* Remove right margin on smaller screens */
+      margin-bottom: 10px; /* Add bottom margin to create space between the logo and other content */
+    }
+  }  

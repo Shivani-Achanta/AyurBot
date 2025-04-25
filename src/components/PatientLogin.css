@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a7ffeb; /* Set the background color to #a7ffeb for the entire screen */
+}
+.login-pagee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a7ffeb; /* Replace with your desired background color */
+  }
+  
+  .login-containerr {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background with a slight difference */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  /* Add margin between form fields */
+  .form-groupp {
+    margin-bottom: 15px; /* Adjust as needed for the desired gap */
+  }
+  .forget{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .login-containerr {
+      width: 80%; /* Adjust width as needed for smaller screens */
+    }
+  }
