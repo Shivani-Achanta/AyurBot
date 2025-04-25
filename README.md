@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# AyurBot 🌿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AyurBot** is a modern web application that blends the ancient wisdom of Ayurveda with the power of modern machine learning and web technologies. Built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js), AyurBot offers personalized insights into users' Ayurvedic constitution (Prakriti), virtual consultations with practitioners, and educational resources to promote holistic well-being.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌱 What is Ayurveda?
 
-### `npm start`
+Ayurveda is an ancient Indian holistic healing system emphasizing balance between the **mind**, **body**, and **spirit**. It centers around the concept of **Tridosha** — the three fundamental energies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔵 **Vata** (air & space)  
+- 🔴 **Pitta** (fire & water)  
+- 🟢 **Kapha** (water & earth)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Every individual has a unique balance of these doshas, known as their **Prakriti**, which influences their health, personality, and lifestyle needs.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 Project Overview
 
-### `npm run build`
+AyurBot is a technological bridge between **traditional Ayurvedic science** and **modern predictive modeling**. Through an intuitive web interface and powerful backend logic, users can:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Discover their **Prakriti** type via a personalized quiz trained on an SVM algorithm  
+- Connect with verified **Ayurvedic practitioners** for telemedicine consultations  
+- Access curated content and recommendations for a balanced lifestyle  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔥 Features
 
-### `npm run eject`
+- 🧠 **Prakriti Prediction**  
+  An ML-powered quiz that determines your Ayurvedic constitution using SVM classification.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🧑‍⚕️ **Telemedicine Consultation Integration**  
+  Connect with professional Ayurvedic doctors virtually.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🌐 **Fully Developed MERN Stack Website**  
+  Responsive and user-friendly design for a seamless experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Tech Stack
 
-## Learn More
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Machine Learning**: Python (Pandas, pymongo, Scikit-learn)  
+  - SVM (Support Vector Machine) model for classification  
+  - Prototyped using KNIME before coding in Python  
+- **Others**: REST APIs, Nodemon
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Getting Started
 
-### Code Splitting
+### ✅ Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Make sure you have the following installed:
 
-### Analyzing the Bundle Size
+- Node.js & npm
+- MongoDB
+- Python (if running the ML model separately)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 📦 Installation Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Clone the Repository**
+   git clone https://github.com/your-username/ayurbot.git
+   cd ayurbot
 
-### Advanced Configuration
+2. **Install Frontend Dependencies**
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Start the Backend Server**
+   cd backend
+   npm install
+   nodemon app.js
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Start the Frontend App**
+   cd ..
+   npm start
